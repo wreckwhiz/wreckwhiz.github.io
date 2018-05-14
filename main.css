@@ -114,12 +114,19 @@ header img {
 	line-height: 40px;
 	margin: 0 auto;
 	width: 50px;
-	display:block;
+	display: block;
 	color: black;
 	cursor: pointer;
 	text-decoration: none;
 	text-align: center
 }
+.slicknav_menu li a {
+	margin: 0;
+	width: 100%;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.slicknav_menu li a:hover {color: white;}
 .slicknav_menu li:hover {
 	background: rgba(53,240,92, .6);
 }  
