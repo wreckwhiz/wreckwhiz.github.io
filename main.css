@@ -191,7 +191,7 @@ header img {
 }
 	/*applications mobile smart*/
 #apps {
-	padding: 0 1em;
+	padding: 1em;
 	height: auto;
 	background: rgba(53,240,92,.65);
 	margin-bottom: .5em;
@@ -212,6 +212,7 @@ header img {
 #apps h1 {
     font-weight: bold;
 	font-size: 1.2em;
+	text-align: center;
 	border-bottom: 1px solid black;
     margin-bottom: 1em;
 }
@@ -349,20 +350,21 @@ header img {
 #tips {
 	background: rgba(53,240,92,.65);
 	height: auto;
-	padding: 0 1em;
+	padding: 1em;
 	margin-bottom: 1em;
 }
 #tips h1 {
 	font-size: 1.2em;
 	font-weight: bold;
 	text-align: center;
+	text-transform: capitalize;
+	border-bottom: 1px solid black;
 	margin-bottom: .5em;
 }
 #tips h2 {
 	text-align: center;
-	border-bottom: 1px solid black;
+	font-weight: bold;
 	margin-bottom: .8em;
-
 }
 #tips h3 {
 	text-align: center;
@@ -386,6 +388,7 @@ header img {
 	background: rgba(53,240,92,.65);
 }
 #contact h1 {
+	text-align: center;
 	font-size: 1.2em;
 	font-weight: bold;
 	border-bottom: 1px solid black;
@@ -407,8 +410,15 @@ header img {
 }
 	/*form styles*/
 form {margin-bottom: 1em;}
+legend {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: .5em;
+}
 label.text {
-	text-align: left;
+	text-align: center;
+	font-weight: bold;
 	font-size: 1.2em;
 	display: block;
 	margin-bottom: .5em;
